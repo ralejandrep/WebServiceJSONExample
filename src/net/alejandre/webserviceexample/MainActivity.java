@@ -58,7 +58,8 @@ public class MainActivity extends ListActivity {
 		protected Long doInBackground(String... arg0) {
 			// object to download the data from internet.
 			Downloader down = new Downloader();
-			// downloading in this case text. TODO pon la ip de tu equipo aqui.
+			// downloading in this case text. 
+			// TODO edit the string into the methodGet to put your ip.
 			Stringresult = down.methodGet("http://192.168.1.134/pruebas-java/stored_users.html");
 			//Log.e("JSON", Stringresult);
 			
